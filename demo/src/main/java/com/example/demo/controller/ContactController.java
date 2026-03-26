@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 @RestController
 @RequestMapping("/api/contact") // بدلي هادي باش تولي تخص الـ contact برك
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://ayaweb.vercel.app")
 public class ContactController {
 
     @Autowired
